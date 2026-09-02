@@ -1,0 +1,11 @@
+{
+  "experiment_seed": 42,
+  "word_stream_base_seed": 2026,
+  "protocol_seed_offsets": {
+    "15_words": 0,
+    "50_words": 1000000,
+    "12500_words": 2000000
+  },
+  "word_index_multiplier": 1009,
+  "parity_check_offset": 9000000
+}

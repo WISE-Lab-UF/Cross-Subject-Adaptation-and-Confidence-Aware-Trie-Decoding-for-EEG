@@ -1,0 +1,16 @@
+word,length,frequency_rank,zipf_frequency
+hello,5,1944,4.72
+world,5,136,5.89
+brain,5,1215,4.94
+model,5,775,5.13
+signal,6,2406,4.62
+neural,6,10241,3.76
+decode,6,28168,3.02
+typing,6,9120,3.84
+cortex,6,13126,3.59
+system,6,249,5.56
+quiet,5,2267,4.65
+zebra,5,17279,3.4
+rhythm,6,6614,4.05
+glyph,5,41646,2.7
+fjord,5,36560,2.81
