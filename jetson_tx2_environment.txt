@@ -1,0 +1,60 @@
+NVIDIA Jetson TX2 benchmark environment
+=========================================
+
+Device
+------
+Platform: NVIDIA Jetson TX2
+Architecture: aarch64
+CPU: 6-core ARM Cortex-A57
+CPU maximum frequency: 2035.2 MHz
+Memory: 7.7 GB
+
+Operating system
+----------------
+Ubuntu: 18.04.6 LTS
+Linux kernel: 4.9.337-tegra
+NVIDIA L4T: 32.7.6
+
+Power/performance configuration
+-------------------------------
+nvpmodel mode: MAXN
+CPU governor: schedutil
+Observed CPU frequency during environment probe: 2035.2 MHz
+
+Python
+------
+Python: 3.8.20
+
+Core Python packages used by the benchmark
+------------------------------------------
+NumPy: 1.24.4
+SciPy: 1.10.1
+pandas: 2.0.3
+scikit-learn: 1.3.2
+joblib: 1.2.0
+
+Numerical backend
+-----------------
+NumPy BLAS: OpenBLAS
+NumPy OpenBLAS version: 0.3.21
+SciPy OpenBLAS version: 0.3.18
+OpenBLAS architecture: Cortex-A57
+OpenBLAS threads: 4
+scikit-learn OpenMP threads: 4
+
+TensorFlow
+----------
+TensorFlow: 2.11.0
+Keras: 2.11.0
+TensorFlow CUDA build: No
+TensorFlow GPU devices detected: None
+
+NVIDIA software stack
+---------------------
+CUDA toolkit: 10.2
+cuDNN: 8.2.1
+TensorRT: 8.2.1
+
+Measurement utility
+-------------------
+tegrastats: available
