@@ -15,7 +15,7 @@ Low-Latency EEG-Based Imagined Handwriting Recognition."**
 | `seeds.json` | Random seeds used for evaluation |
 | `words_15.csv` | 15-word evaluation set |
 | `words_50.csv` | 50-word evaluation set |
-| `words_12500.csv` | 12,500-word stress-test set |
+| `words_12500.csv` | 12,500-word lexical-diversity set |
 | `posterior_streams_*.npz` | Saved character-posterior streams for decoder evaluation |
 | `word_length_distribution.csv` | Word-length statistics |
 | `zipf_frequency_distribution.csv` | Word-frequency statistics |
