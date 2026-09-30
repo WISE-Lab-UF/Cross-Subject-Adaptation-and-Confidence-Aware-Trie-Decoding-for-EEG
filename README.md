@@ -44,6 +44,18 @@ The main manuscript components are associated with the following files:
    
 -----------------------------------------------------------------------
 
+### Manuscript Table Mapping
+
+| Manuscript Table | Analysis | Relevant Repository Files | Reproducibility |
+|---|---|---|---|
+| Table 1 | Lexical characteristics of the reference-word sets | `words_15.csv`, `words_50.csv`, `words_12500.csv`, `word_length_distribution.csv`, `zipf_frequency_distribution.csv` | Reproducible directly from the released files |
+| Table 2 | Target-specific classifier comparison | `classifier.py` | Classifier implementation is provided; reported values require the participant-level EEG-derived representations |
+| Table 3 | Development-participant word-decoder comparison | `decoder.py`, `posterior_streams_50_words.npz`, `words_50.csv`, `decoder_config.json`, `seeds.json` | Released posterior streams support the word-decoding evaluation |
+| Table 4 | Fixed-candidate, adaptive-decoding, implementation-optimization, and edge-device evaluation | `decoder.py`, `posterior_streams_*.npz`, `words_*.csv`, `decoder_config.json`, `seeds.json`, `jetson_tx2_environment.txt` | Decoder evaluation uses the released posterior streams; NVIDIA Jetson TX2 latency and energy measurements require the corresponding hardware |
+| Table 5 | Leave-one-subject-out cross-subject evaluation | `eedgenet.py`, `classifier.py`, `decoder.py` | Requires the underlying participant EEG data and derived participant-level representations |
+
+-----------------------------------------------------------------------
+
 ## Data Availability
 
 The repository provides the code, evaluation lists, posterior streams,
